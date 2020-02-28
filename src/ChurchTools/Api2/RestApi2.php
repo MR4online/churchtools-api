@@ -30,7 +30,7 @@ class RestApi2 extends Client {
      * be stored in the project environment or configuration for re-use with `createWithLoginIdToken`.
      * It is very long-lasting (until revoked?).
      *
-     * @param type $serverURL  url in the form https://myct.church.tools
+     * @param string $serverURL  url in the form https://myct.church.tools
      * @param string $usernameOrEmail
      * @param string $password
      * @return array on success, or null on failure
